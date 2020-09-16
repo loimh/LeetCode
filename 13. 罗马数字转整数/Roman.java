@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 罗马数字包含以下七种字符: I， V， X， L，C，D 和 M。
 
@@ -33,14 +36,14 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 解释: M = 1000, CM = 900, XC = 90, IV = 4.
 
  */
-public class Solution(){
+public class Roman {
     public static void main(String[] args){
         String s="MCMXCIV";
         int n=romanToInt(s);
-        System.out.println("运算结果�?"+n);
+        System.out.println("运算结果是"+n);
     }
     public static int romanToInt(String s) {
-        Map<String,Intenger> map=new HashMap<>();
+        Map<String,Integer> map=new HashMap<String,Integer>();
         map.put("I",1);
         map.put("V",5);
         map.put("X",10);
@@ -56,13 +59,13 @@ public class Solution(){
         map.put("CM",900);
 
         int ans=0;//ans表示结果
-        for(int i=0;i<s.length()){
-            if(i+1<s.length() && map.containsKey(s.subString(i,i+2))){
-                ans+=map.get(s.subString(i,i+2));
-                i+2;
+        for(int i=0;i<s.length();i++){
+            if(i+1<s.length() && map.containsKey(s.substring(i,i+2))){
+                ans+=map.get(s.substring(i,i+2));
+                i+=2;
             }else{
-                ans+=map.get(s.subString(i,i+1));
-                i+1;
+                ans+=map.get(s.substring(i,i+1));
+                i+=1;
             }
         }
         return ans;
