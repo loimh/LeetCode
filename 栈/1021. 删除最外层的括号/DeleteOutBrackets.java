@@ -90,7 +90,7 @@ public class DeleteOutBrackets {
            }
            if (ch == ')') {
                stack.pop();
-               if(stack.isEmpty()){
+               if(stack.isEmpty()){//当栈空的时候，找到了一个完整的原语
                    end=i;
                    ans.append(S.substring(start+1,end));
                    flag=false;

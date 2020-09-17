@@ -1,4 +1,3 @@
-package com.example.demo.service.impl;
 
 import java.util.HashMap;
 
@@ -20,7 +19,7 @@ import java.util.HashMap;
  * 进阶:
  * 如果输入字符串包含 unicode 字符怎么办？你能否调整你的解法来应对这种情况？
  */
-public class Solution {
+public class HeterotopicWords {
     public static  void main(String[] args){
         String s="zxcvbnm";
         String t="mnbvcxz";
