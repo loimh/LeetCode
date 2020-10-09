@@ -36,7 +36,7 @@ import java.util.Stack;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
-/**
+/** 辅助栈算法
  * 解题思路：通过两个栈，stackA栈存放数据，stackB栈存放最小值
  * push:当stackB为空时，stackA和stackB都push进数据。如果stack不为空，如果push的值比stackB栈顶的值小，则将该值push进stackB中，如果比他大，则stackB再push一遍自己的栈顶保持和stackA元素个数相同
  * pop：stackA和stackB都pop元素
