@@ -71,6 +71,9 @@ public class CompareString {
                 stackB.push(ch);
             }
         }
+        if (stackB.size() != stackA.size()) {
+            return false;
+        }
         return  stackA.toString().equals(stackB.toString());
     }
 }
