@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05c76e5-d36b-4405-9c00-a9888d171734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/栈/棒球比赛/BaseballGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/栈/中等/二叉搜索树迭代器173/BSTIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/栈/栈的最小值面试题0302/MinStack1.java" beforeDir="false" afterPath="$PROJECT_DIR$/栈/栈的最小值面试题0302/MinStack1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/栈/用队列实现栈225/QueueAchieveStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/栈/用队列实现栈225/QueueAchieveStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/1021. 删除最外层的括号/DeleteOutBrackets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/下一个更大元素496/GetNextGreaterElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/删除字符串中的所有相邻重复项1047/DeleteSameChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/剑指Offer09/两个栈实现队列/TwoStackBecomeQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/剑指Offer09/两个栈实现队列/解题思路gif实现.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/剑指Offer30包含min函数的栈/MinStack3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/文件夹操作日志搜集器1598/GetMinOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/最小栈155/MinStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/栈的最小值面试题0302/MinStack1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/棒球比赛/BaseballGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/比较含退格的字符串844/CompareString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/用栈操作构建数组1441/StackControlArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/用队列实现栈225/QueueAchieveStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/面试题0304化栈为队/MyQueue.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,98 +35,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈/1021. 删除最外层的括号/DeleteOutBrackets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈/面试题0304化栈为队/MyQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈/删除字符串中的所有相邻重复项1047/DeleteSameChar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈/最小栈155/MinStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="38" selection-start-line="38" selection-end-line="44" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈/栈的最小值面试题0302/MinStack1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="36" column="17" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈/比较含退格的字符串844/CompareString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈/用栈操作构建数组1441/StackControlArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/栈/棒球比赛/BaseballGame.java">
+        <entry file="file://$PROJECT_DIR$/栈/中等/二叉搜索树迭代器173/BSTIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+            <state relative-caret-position="849">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈/用队列实现栈225/QueueAchieveStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="35" column="35" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈/剑指Offer09/两个栈实现队列/TwoStackBecomeQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -155,10 +83,15 @@
         <option value="$PROJECT_DIR$/栈/用队列实现栈225/QueueAchieveStack.java" />
         <option value="$PROJECT_DIR$/栈/栈的最小值面试题0302/MinStack1.java" />
         <option value="$PROJECT_DIR$/栈/棒球比赛/BaseballGame.java" />
+        <option value="$PROJECT_DIR$/栈/文件夹操作日志搜集器1598/GetMinOperations.java" />
+        <option value="$PROJECT_DIR$/栈/下一个更大元素496/GetNextGreaterElement.java" />
+        <option value="$PROJECT_DIR$/栈/剑指Offer30包含min函数的栈/MinStack3.java" />
+        <option value="$PROJECT_DIR$/栈/整理字符串1544/SortString.java" />
+        <option value="$PROJECT_DIR$/栈/中等/二叉搜索树迭代器173/BSTIterator.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="78" />
     <option name="width" value="1008" />
     <option name="height" value="908" />
@@ -171,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,19 +117,31 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="栈" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="栈" type="462c0819:PsiDirectoryNode" />
+              <item name="中等" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="栈" type="462c0819:PsiDirectoryNode" />
+              <item name="中等" type="462c0819:PsiDirectoryNode" />
+              <item name="二叉搜索树迭代器173" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/android-sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602645171152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602820029402" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -220,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BaseballGame">
+  <component name="RunManager" selected="Application.SortString">
     <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="栈.棒球比赛.BaseballGame" />
       <module name="LeetCode" />
@@ -234,25 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteOutBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="栈.DeleteOutBrackets" />
+    <configuration name="GetNextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="栈.下一个更大元素496.GetNextGreaterElement" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="栈.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteSameChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="栈.删除字符串中的所有相邻重复项1047.DeleteSameChar" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="栈.删除字符串中的所有相邻重复项1047.*" />
+          <option name="PATTERN" value="栈.下一个更大元素496.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,13 +219,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="栈.整理字符串1544.SortString" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="栈.整理字符串1544.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortString" />
+        <item itemvalue="Application.GetNextGreaterElement" />
         <item itemvalue="Application.BaseballGame" />
         <item itemvalue="Application.QueueAchieveStack" />
         <item itemvalue="Application.MinStack" />
-        <item itemvalue="Application.DeleteSameChar" />
-        <item itemvalue="Application.DeleteOutBrackets" />
       </list>
     </recent_temporary>
   </component>
@@ -317,18 +263,25 @@
       <workItem from="1602497656526" duration="544000" />
       <workItem from="1602552852506" duration="1988000" />
       <workItem from="1602569581130" duration="4784000" />
-      <workItem from="1602640384348" duration="4643000" />
+      <workItem from="1602640384348" duration="17124000" />
+      <workItem from="1602743492654" duration="1562000" />
+      <workItem from="1602750075265" duration="1873000" />
+      <workItem from="1602812233159" duration="3588000" />
+      <workItem from="1602828690145" duration="3655000" />
+      <workItem from="1603077274448" duration="2846000" />
+      <workItem from="1603157204556" duration="2740000" />
+      <workItem from="1603443204657" duration="961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49184000" />
+    <option name="totallyTimeSpent" value="78890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.16184351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.14523044" />
       <window_info id="Structure" order="1" sideWeight="0.50222224" side_tool="true" weight="0.26688102" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -338,7 +291,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989282" visible="true" weight="0.29218572" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989282" visible="true" weight="0.2785957" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785638" weight="0.3250283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,9 +391,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/栈/1021/ 删除最外层的括号/DeleteOutBrackets.java" />
     <entry file="file://$PROJECT_DIR$/栈/剑指Offer09/两个栈实现队列/TwoStackBecomeQueue.kt" />
-    <entry file="file://$PROJECT_DIR$/栈/剑指Offer09/两个栈实现队列/解题思路gif实现.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/栈/剑指Offer09/两个栈实现队列/解题思路gif实现.gif" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1517">
@@ -475,76 +426,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/栈/1021. 删除最外层的括号/DeleteOutBrackets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/栈/1021. 删除最外层的括号/DeleteOutBrackets.java" />
+    <entry file="file://$PROJECT_DIR$/栈/面试题0304化栈为队/MyQueue.java" />
+    <entry file="file://$PROJECT_DIR$/栈/删除字符串中的所有相邻重复项1047/DeleteSameChar.java" />
+    <entry file="file://$PROJECT_DIR$/栈/最小栈155/MinStack.java" />
+    <entry file="file://$PROJECT_DIR$/栈/栈的最小值面试题0302/MinStack1.java" />
+    <entry file="file://$PROJECT_DIR$/栈/比较含退格的字符串844/CompareString.java" />
+    <entry file="file://$PROJECT_DIR$/栈/用栈操作构建数组1441/StackControlArray.java" />
+    <entry file="file://$PROJECT_DIR$/栈/棒球比赛/BaseballGame.java" />
+    <entry file="file://$PROJECT_DIR$/栈/文件夹操作日志搜集器1598/GetMinOperations.java" />
+    <entry file="file://$PROJECT_DIR$/栈/下一个更大元素496/GetNextGreaterElement.java" />
+    <entry file="file://$PROJECT_DIR$/栈/剑指Offer30包含min函数的栈/MinStack3.java" />
+    <entry file="file://$PROJECT_DIR$/栈/用队列实现栈225/QueueAchieveStack.java" />
+    <entry file="file://$PROJECT_DIR$/栈/剑指Offer09/两个栈实现队列/TwoStackBecomeQueue.java" />
+    <entry file="file://$PROJECT_DIR$/栈/整理字符串1544/SortString.java" />
+    <entry file="file://$PROJECT_DIR$/栈/中等/二叉搜索树迭代器173/bst-tree.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/栈/面试题0304化栈为队/MyQueue.java">
+    <entry file="file://$PROJECT_DIR$/栈/中等/二叉搜索树迭代器173/BSTIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈/删除字符串中的所有相邻重复项1047/DeleteSameChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈/最小栈155/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" selection-start-line="38" selection-end-line="44" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈/比较含退格的字符串844/CompareString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈/剑指Offer09/两个栈实现队列/TwoStackBecomeQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈/用栈操作构建数组1441/StackControlArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈/用队列实现栈225/QueueAchieveStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="35" column="35" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈/栈的最小值面试题0302/MinStack1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="36" column="17" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈/棒球比赛/BaseballGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+        <state relative-caret-position="849">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
