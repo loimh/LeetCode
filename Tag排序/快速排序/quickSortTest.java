@@ -10,29 +10,29 @@ public class quickSortTest {
     }
 
     public static void sort(int[] nums,int left,int right){
-        int i,j,t;
-        if(left>right){
-            return;
-        }
-        i=left;
-        j=right;
-        t=nums[left];
-        while (i!=j){
-            while (nums[j]>=t && i<j){
-                j--;
-            }
-            while (nums[i]<=t && i<j){
-                i++;
-            }
-            if(i<j){
-                int temp=nums[i];
-                nums[i]=nums[j];
-                nums[j]=temp;
-            }
-        }
-        nums[left]=nums[i];
-        nums[i]=t;
-        sort(nums,left,i-1);
-        sort(nums,i+1,right);
+      int i,j,t;
+      if(left>right){
+          return;
+      }
+      i=left;
+      j=right;
+      t=nums[left];
+      while(i!=j){
+          while (nums[j]>=t && i<j){
+              j--;
+          }
+          while (nums[i]<=t && i<j){
+              i++;
+          }
+          if(i<j){
+              int temp=nums[i];
+              nums[i]=nums[j];
+              nums[j]=temp;
+          }
+      }
+      nums[left]=nums[i];
+      nums[i]=t;
+      sort(nums,left,i-1);
+      sort(nums,i+1,right);
     }
 }
