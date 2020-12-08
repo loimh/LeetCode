@@ -1,5 +1,10 @@
 package 乾隆下江南责任链模式;
 
+
+/**
+ *
+ * 皇上设计为单例模式，防止出现多个皇上
+ */
 public class Emperor {
     public static Emperor emperor=new Emperor("乾隆");
 
