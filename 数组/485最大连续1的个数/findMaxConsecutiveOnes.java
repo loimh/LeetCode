@@ -33,9 +33,7 @@ public class findMaxConsecutiveOnes {
             if(i==1){
                 count++;
             }else{
-                if(count>maxCount){
-                    maxCount=Math.max(maxCount, count);
-                }
+                maxCount=Math.max(maxCount, count);
                 count=0;
             }
         }
