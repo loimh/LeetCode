@@ -24,7 +24,6 @@ public class findMaxConsecutiveOnes {
         int[] nums={1,0,1,1,1,1};
         int count =method(nums);
         System.out.println(count);
-
     }
     public static int method(int[] nums) {
         int count=0;

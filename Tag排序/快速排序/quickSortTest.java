@@ -17,7 +17,7 @@ public class quickSortTest {
         i=left;
         j=right;
         t=nums[left];
-        while(i<j){
+        while (i!=j){
             while (nums[j]>=t && i<j){
                 j--;
             }
