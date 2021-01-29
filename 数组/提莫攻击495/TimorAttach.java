@@ -43,10 +43,10 @@ public class TimorAttach {
         System.out.println(n);
     }
     public static int findPoisonedDuration(int[] timeSeries, int duration) {
-        int total=0;
-        if(timeSeries.length==0 || duration==0){
+        if(timeSeries.length==0 || duration==0) {
             return 0;
         }
+        int total=duration;
         for(int i=0;i<timeSeries.length-1;i++){
             if(timeSeries[i]+duration<=timeSeries[i+1]){
                 total+=duration;
@@ -54,6 +54,6 @@ public class TimorAttach {
                 total+=timeSeries[i+1]-timeSeries[i];
             }
         }
-        return  total+duration;
+        return  total;
     }
 }
