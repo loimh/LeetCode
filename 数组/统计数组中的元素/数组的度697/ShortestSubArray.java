@@ -49,10 +49,13 @@ public class ShortestSubArray {
                 //给leftMap存入数字第一次出现的位置
                 leftMap.put(x,i);
             }
+            //数组最后出现的位置需要一直更新直到循环结束
             rightMap.put(x,i);
             countMap.put(x,countMap.getOrDefault(x,0)+1);
         }
+        //默认结果为数组的长度
         int ans = nums.length;
+        //在countMap里找出出现的最多次数
         int max= Collections.max(countMap.values());
         for(int n:nums){
             if(countMap.get(n)==max){
