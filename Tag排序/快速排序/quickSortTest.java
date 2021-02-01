@@ -24,7 +24,7 @@ public class quickSortTest {
             while (nums[i]<=t && i<j){
                 i++;
             }
-            if(i<j){
+            if(i<=j){
                 int temp=nums[i];
                 nums[i]=nums[j];
                 nums[j]=temp;
