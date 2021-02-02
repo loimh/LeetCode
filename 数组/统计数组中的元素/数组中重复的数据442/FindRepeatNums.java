@@ -20,8 +20,8 @@ import java.util.List;
  * 输出:
  * [2,3]
  *
- * author:caiyi
- * time:2021-02-01
+ * @author:caiyi
+ * @time:2021-02-01
  */
 public class FindRepeatNums {
     public static void main(String[] args){
@@ -32,6 +32,7 @@ public class FindRepeatNums {
     public static List<Integer> findDuplicates(int[] nums) {
         List<Integer> result=new ArrayList<>();
         for(int i=0;i<nums.length;i++){
+            //减1是防止数组越界,因为数组里面的内容是从1开始，而数组里的下标是从零开始的
             int index=Math.abs(nums[i])-1;
             if(nums[index]<0){
                 result.add(Math.abs(index+1));
