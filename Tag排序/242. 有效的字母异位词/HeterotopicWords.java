@@ -29,10 +29,10 @@ public class HeterotopicWords {
     public static boolean isAnagram(String s, String t) {
         // 如果两个字符串的长度不相同时，直接返回false
         if(s.length()!=t.length()){
-            return  false;
+            return false;
         }
         //初始化一个容量位26的数组，每个位置代表26个字母的位置
-       int[] chars=new int[26];
+        int[] chars=new int[26];
         for(int i=0;i<s.length();i++){
             //两个字符串长度相同时，从第一个字符串第一位开始，数组中这个字符的代表位置+1
             chars[s.charAt(i)-'a']++;

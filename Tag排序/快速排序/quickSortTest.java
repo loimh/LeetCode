@@ -10,13 +10,12 @@ public class quickSortTest {
     }
 
     public static void sort(int[] nums,int left,int right){
-        int i,j,t;
         if(left>right){
             return;
         }
-        i=left;
-        j=right;
-        t=nums[left];
+        int i=left;
+        int j=right;
+        int t=nums[left];
         while (i!=j){
             while (nums[j]>=t && i<j){
                 j--;
@@ -24,7 +23,7 @@ public class quickSortTest {
             while (nums[i]<=t && i<j){
                 i++;
             }
-            if(i<=j){
+            if(i<j){
                 int temp=nums[i];
                 nums[i]=nums[j];
                 nums[j]=temp;
